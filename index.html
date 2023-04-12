@@ -24,8 +24,6 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <h1>WEATHER FORECAST</h1>
-
           <div class="input-information">
             <form id="search-form" class="mb-3">
               <div class="row">
@@ -62,9 +60,9 @@
               </div>
               <div class="col-6">
                 <ul>
-                  <li id="city">Porto</li>
-                  <li>Sunday, 21:55</li>
-                  <li>2023, April 2</li>
+                  <h1 id="city">Porto</h1>
+                  <li><span id="day">Sunday, 21:55</span></li>
+                  <li><span id="date">2023, April 2</span></li>
                 </ul>
               </div>
               <hr style="border: dotted 3px" />
@@ -76,10 +74,10 @@
                       <li>Humidity</li>
                     </ul>
                   </div>
-                  <div class="col-3">
+                  <div class="col-4">
                     <ul>
                       <li><span id="wind">5 </span>Km/h</li>
-                      <li>Wind</li>
+                      <li>Wind speed</li>
                     </ul>
                   </div>
                   <div class="col">
@@ -96,10 +94,10 @@
                       <li>Precipitation</li>
                     </ul>
                   </div>
-                  <div class="col-3">
+                  <div class="col-4">
                     <ul>
-                      <li><span id="uv-index">5</span> Km/h</li>
-                      <li>UV index</li>
+                      <li><span id="wind-direction">5</span> ºW</li>
+                      <li>Wind direction</li>
                     </ul>
                   </div>
                   <div class="col">
@@ -111,41 +109,43 @@
                 </div>
               </div>
               <hr style="border: dotted 3px" />
-              <div class="weather-forecast">
-                <div class="row row-cols-5">
-                  <div class="col">
-                    <div class="container2 text-center" style="width: 100%">
-                      <h5>Mon</h5>
-                      <p style="font-size: 40px">🌦</p>
-                      <p><strong>18º</strong>| 12º</p>
+              <div class="weather-forecast-wrapper">
+                <div class="weather-forecast">
+                  <div class="row row-cols-5">
+                    <div class="col">
+                      <div class="container2 text-center" style="width: 100%">
+                        <h5>Mon</h5>
+                        <p style="font-size: 40px">🌦</p>
+                        <p><strong>18º</strong>| 12º</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="container2 text-center" style="width: 100%">
-                      <h5>Tue</h5>
-                      <p style="font-size: 40px">🌧</p>
-                      <p><strong>18º</strong>| 12º</p>
+                    <div class="col">
+                      <div class="container2 text-center" style="width: 100%">
+                        <h5>Tue</h5>
+                        <p style="font-size: 40px">🌧</p>
+                        <p><strong>18º</strong>| 12º</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="container2 text-center" style="width: 100%">
-                      <h5>Wed</h5>
-                      <p style="font-size: 40px">🌤</p>
-                      <p><strong>16º</strong>| 7º</p>
+                    <div class="col">
+                      <div class="container2 text-center" style="width: 100%">
+                        <h5>Wed</h5>
+                        <p style="font-size: 40px">🌤</p>
+                        <p><strong>16º</strong>| 7º</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="container2 text-center" style="width: 100%">
-                      <h5>Thu</h5>
-                      <p style="font-size: 40px">🌤</p>
-                      <p><strong>13º</strong>| 5º</p>
+                    <div class="col">
+                      <div class="container2 text-center" style="width: 100%">
+                        <h5>Thu</h5>
+                        <p style="font-size: 40px">🌤</p>
+                        <p><strong>13º</strong>| 5º</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div class="container2 text-center">
-                      <h5>Fri</h5>
-                      <p style="font-size: 40px">🌦</p>
-                      <p><strong>13º</strong>| 6º</p>
+                    <div class="col">
+                      <div class="container2 text-center">
+                        <h5>Fri</h5>
+                        <p style="font-size: 40px">🌦</p>
+                        <p><strong>13º</strong>| 6º</p>
+                      </div>
                     </div>
                   </div>
                 </div>
